@@ -1,0 +1,113 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 200vh;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 7vh;
+    background-color: #f9f9fd;
+
+}
+
+header img {
+    width: auto;
+    height: 7vh;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+ nav a {
+    display: inline-block;
+    height: 100%;
+    line-height: 7vh;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 14px;
+    color: #47217F;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    height: 40px;
+    padding: 0 10px;
+    background-color: #47217F;
+    border: none;
+    color: white;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+button img {
+    height: 12px;
+    width: 12px;
+
+}
+
+.bannerContainer {
+    background-size: cover;
+    width: 100vw;
+    height: 93vh;
+}
+.textBannerContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    top: 25%;
+    left: 10%;
+    
+    height: 400px;
+    width: 600px;
+    
+}
+@media (max-width: 600px){
+    .textBannerContainer{
+        left: 0%;
+        width: 100%;
+    }
+}
+/* @media (max-width: 1400px){
+    .textBannerContainer{
+       color: orange;
+        left: 8%;
+       
+    }
+} */
+ .textBannerContainer li{
+    position: relative;
+    left: 15px;
+    font-size: 13px;
+   color: #8E92A7;
+}
+.textBannerContainer h1{
+    font-size: 60px;
+    color: white;
+}
+.textBannerContainer p{
+   font-size: 15px;
+    color: #8E92A7;
+}
+.textoGradiente{
+    background-image: linear-gradient(90deg,#4FCFE1,#8D83ED);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
